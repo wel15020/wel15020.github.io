@@ -24,9 +24,15 @@
         </main>
         <footer>
             <p>
-                &copy;2020 | Marcus Welker | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+                &copy;<span id="year"></span> | Marcus Welker | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
             </p>
+            <p id="modified"></p>
         </footer>
-        
+        <script>
+            var string = document.lastModified;
+            document.getElementById("modified").textContent = `Last Updated: ${string}`;
+            var date = new Date();
+            document.getElementById("year").textContent = date.getFullYear();
+        </script>
     </body>
 </html>
