@@ -15,12 +15,12 @@ body {
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     color: #000000;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -40,7 +40,7 @@ header, footer, footer a {
 header img {
     width: 150px;
     height: auto;
-    float: right;
+
 }
 
 footer {
