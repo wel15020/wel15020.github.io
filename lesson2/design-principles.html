@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Design Principles Analysis">
+    <meta name="author" content="Marcus Welker">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Marcus Welker - Deisgn Principles</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <h1>Design Principles</h1>
+  <h2>Marcus Welker</h2>
+</header>
+  
+
+
+<main>
+    <section>
+        <h2>Repetition</h2>
+        <h3><a href="https://www.citrix.com/">Citrix Systems</a></h3>
+        <img src="images/img_citrix.png" alt="Citrix Systems">
+        <p>The use of white text and logos repeats throughout the page making everything look like its all apart of one thing. Even if they are different icons and ideas, the repetition of white links them together.</p>
+     </section>
+
+     <section>
+        <h2>Alignment</h2>
+        <h3><a href="https://www.ifixit.com/">ifixit</a></h3>
+        <img src="images/img_ifixit.png" alt="ifixit">
+        <p>The text, boxes and hamburger menu are all aligned to the right. This page looks well designed and its easy to find the search box by starting at the top and working straight down.</p>
+     </section>
+
+     <section>
+        <h2>Clean</h2>
+        <h3><a href="https://triumphunited.com/">Triumph United</a></h3>
+        <img src="images/img_tu.png" alt="Triumph United">
+        <p>The overuse of white in the background gives the appearance of being clean and sterile. The items being sold stand out from the white becuase the background is not distracting.</p>
+     </section>
+
+    
+</main>
+
+<footer>
+    <p>
+        &copy;<span id="year"></span> | Marcus Welker | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+    </p>
+    <p id="modified"></p>
+</footer>
+
+<script>
+    var string = document.lastModified;
+    document.getElementById("modified").textContent = `Last Updated: ${string}`;
+    var date = new Date();
+    document.getElementById("year").textContent = date.getFullYear();
+</script>
+</body>
+</html>
