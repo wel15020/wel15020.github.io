@@ -60,6 +60,9 @@ main img.screen {
 main img.none { 
     width: 250px;
 }
+main h1.sample {
+    margin: 0; font-size: 1.3rem; font-family: 'Rock Salt', cursive;
+}
 
 /*----------- FOOTER --------------*/
 footer {
