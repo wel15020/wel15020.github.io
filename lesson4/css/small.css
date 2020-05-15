@@ -59,7 +59,10 @@ nav ul.hide {
 main h1 {
     padding: .5rem 2%;
 }
-
+section.forecast {
+    display: none;
+    padding: .5rem 2%;
+}
 section.article {
     padding: .5rem 2%;
 }
@@ -89,7 +92,22 @@ section.article {
 section.contact {
     padding: .5rem 2%;
 }
+.contactText {
+    display: flex;
+}
+.contactColumn {
+    flex: 50%;
+}
+section.map {
+    width: 100%;
+}
+.iframemap {
+    width: 100%;
+}
 footer {
+    
+    justify-content: center;
+    display: flex;
     background-color: #3a728f;
     padding: .5rem 2%;
     text-align: center;

@@ -40,13 +40,12 @@
         <button onclick="toggleMenu()">&#9776 MENU</button>
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Products</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>    
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>   
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>    
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+
         </ul>
     </nav>
     
@@ -61,10 +60,28 @@
                 <p>High: xx</p>
                 <p>Low: xx</p>
                 <p>Wind: xx</p>
-
-                
             </section>
         </div>
+        <section class="forecast">
+            <h2>Five Day Forecast</h2>
+            <table class="forecastTable">
+              <tr>
+                  <th>Day</th>
+                  <th>Day</th>
+                  <th>Day</th>
+                  <th>Day</th>
+                  <th>Day</th>
+              </tr>
+              <tr>
+                  <td><img src="images/box.png">High Temp&#0176</td>
+                  <td><img src="images/box.png">High Temp&#0176</td>
+                  <td><img src="images/box.png">High Temp&#0176</td>
+                  <td><img src="images/box.png">High Temp&#0176</td>
+                  <td><img src="images/box.png">High Temp&#0176</td>
+              </tr>
+            </table>
+
+        </section>
         <section class="article">
         <h2>Article Title</h2>
         <p>On this day in history the first (you find
@@ -81,14 +98,40 @@
         </p>
         </section>
         <img class="relatedimage" src="images/fesitval.jpeg" alt="celebrating the festival">
+        
         <section class="contact">
         <h2>Contact Us</h2>
+        <div class="contactText">
+        <div class="contactColumn">
+            <h3>Address:</h3>
+            <p>The Weather Center</p>
+            <p>123 Main Street</p>
+            <p>Franklin, MI 87654</p>
+        </div>
+
+        <div class="contactColumn">
+        <h3>Phone:</h3>
+        <p>(801) 555-1234</p>
+
+        <h3>Email:</h3>
+        <p>contact@myweather.life</p>
+        </div>
+        </div>
         </section>
-    </main>
-    
+   
+
+
+        <section class="map">
+            <iframe class="iframemap" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Preston%2C%20Idaho+(Preston%2C%20Idaho)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                <a href="https://www.maps.ie/draw-radius-circle-map/">Create radius map</a>
+            </iframe>
+        </section>
+</main>
+
 <!-- FOOTER HERE -->   
 <footer>
-    &copy; Marcus Welker &bull; Date
+    <p>&copy; Marcus Welker &nbsp; &bull; &nbsp;</p>
+    <p id="footerDate"></p>
 </footer>
     
 <script src="js/scripts.js"></script>

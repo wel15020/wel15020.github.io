@@ -1,5 +1,40 @@
 /* 35em is also 560px when basefont is 16px */
 @media screen and (min-width: 35em) {
+  
+    
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    
+    nav ul {
+        margin-left: 2%;
+    }
+    
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;
+    }
 
+    section.forecast { 
+        display: inline;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th {
+        background-color: #d3d3d3;
+    }
+    .forecastTable {
+        width: 700px;
+        padding: .5rem 2%;
+    }
 
 }
