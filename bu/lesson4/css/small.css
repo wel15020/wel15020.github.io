@@ -56,15 +56,53 @@ nav ul.hide {
     display: none;
 }
 
-main {
+main h1 {
     padding: .5rem 2%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main section {
+section.forecast {
+    display: none;
     padding: .5rem 2%;
-    border: 1px solid rgba(0,0,0,0.5);
-    margin: 10px 0;
-    background-color: #e3e3e3;
+}
+section.article {
+    padding: .5rem 2%;
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+    text-align: left;
+}
+.heroimage {
+    width: 100%;
+}
+.stats {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    border: 1px solid #000;
+    padding: .5rem 2%;
+    box-shadow: 0 0 30px #fff;
+    background-color: rgba(58, 114, 143, 0.9);
+    color: #fff;
+}
+.relatedimage {
+    width: 100%;
+    padding: .5rem 2%;
+}
+section.contact {
+    padding: .5rem 2%;
+}
+.contactText {
+    display: flex;
+}
+.contactColumn {
+    flex: 50%;
+}
+section.map {
+    width: 100%;
+}
+.iframemap {
+    width: 100%;
 }
 footer {
     
@@ -74,7 +112,6 @@ footer {
     padding: .5rem 2%;
     text-align: center;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
