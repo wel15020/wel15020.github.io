@@ -1,0 +1,160 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header {
+    padding: .5rem 2%;
+    background-color: #3a728f;
+    
+}
+header img {float: left; margin-right: 10px; width: 50px;}
+header h1 {margin: 0; font-size: 1.3rem; font-family: 'Rock Salt', cursive;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;} 
+
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav {
+    background-color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);;
+}
+nav ul.hide {
+    display: none;
+}
+
+main {
+    padding: .5rem 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+main section {
+    padding: .5rem 2%;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: 10px 0;
+    background-color: #e3e3e3;
+}
+.hero {
+    margin: 10px auto;
+    background-color: #eee;
+    border: 1px solid #333;
+    position: relative;
+    text-align: left;
+}
+
+
+.heroimage {
+    width: 100%;
+}
+.stats {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background-color: rgba(58, 114, 143, 0.9);
+    border: 1px solid #000;
+    padding: .5rem 2%;
+    box-shadow: 0 0 30px #fff;
+    line-height: 15px;
+    color: #fff;
+}
+.statstable {
+    border: none;
+
+    
+}
+.statstablebody {
+    text-align: right;
+    color: #eee;
+   
+}
+.statstd {
+    text-align: left;
+    color: #000;
+    
+}
+.fiveday {
+    display: none;
+}
+.articleimage {
+    box-shadow: 0 0 30px #fff;
+    border: 1px solid #000;
+
+}
+.author {
+    font-style: italic;
+    color: #3a728f;
+}
+
+.contact {
+text-align: center;
+
+
+}
+.iframemap {
+    display: none;
+}
+.contactinfo {
+    padding: .2em;
+}
+.contactinfoh3 {
+    margin: 0px;
+}
+.contactnumber {
+    padding-top: 1em;
+}
+.contacticons {
+    padding-top: 1em;
+}
+footer {
+    
+    justify-content: center;
+    display: flex;
+    background-color: #3a728f;
+    padding: .5rem 2%;
+    text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
