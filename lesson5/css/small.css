@@ -3,7 +3,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
+#alert {
+    padding: .7em;
+    text-align: center;
+    background: yellow;
+}
 header {
     padding: .5rem 2%;
     background-color: #3a728f;

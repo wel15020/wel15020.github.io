@@ -33,3 +33,11 @@ function toggleMenu() {
     const year = d.getFullYear();
     const fulldate = dayName + ", " + d.getDate() + " " + monthName + " " + year;
     document.getElementById("footerDate").textContent = fulldate;
+
+    // display event alert if its Friday
+    if(days[d.getDay()] == "Friday") {
+        document.getElementById("alert").style.display = 'block';
+    }
+    else {
+        document.getElementById("alert").style.display = 'none';
+    }
