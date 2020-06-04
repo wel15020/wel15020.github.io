@@ -1,0 +1,23 @@
+body {
+    max-width: 400px; 
+    margin: auto;
+}
+
+section.images {
+    display: flex;
+    flex-direction: column;
+}
+
+section.images img {
+    min-width:300px; 
+    width: 300px; 
+    box-shadow: 0 0 10px; 
+    border:solid 1px; 
+    margin: 10px; 
+    color: #333;
+}
+
+section.images img[data-src] {
+    filter: blur(0.2rem);
+}
+
