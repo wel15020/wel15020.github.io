@@ -1,5 +1,6 @@
-/* 35em is also 560px when basefont is 16px */
-@media screen and (min-width: 35em) {
+/* 35em is also 560px when basefont is 16px 
+changed to 55em to fit gallery */
+@media screen and (min-width: 55em) {
   
     header img {
         width: 70px;
@@ -29,6 +30,9 @@
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .6rem 1rem;
         font-size: .78rem;
+    }
+    section.images {
+        grid-template-columns: repeat(2, 1fr);
     }
     .fiveday {
         display: flex;

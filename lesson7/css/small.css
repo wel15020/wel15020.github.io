@@ -72,6 +72,30 @@ main section {
     margin: 10px 0;
     background-color: #e3e3e3;
 }
+
+section.images {
+    display: grid;
+    grid-gap: 0px;
+    grid-auto-columns: auto;
+     justify-content: center;
+
+     margin: 1rem auto;
+}
+
+section.images img {
+
+    box-shadow: 0 0 10px; 
+    border:solid 1px; 
+    margin: 10px; 
+    color: #333;
+}
+
+section.images img[data-src] {
+    filter: blur(0.2rem);
+}
+section.images img:hover {
+    box-shadow: 10px 10px 30px;
+}
 .hero {
     background-color: #eee;
     border: 1px solid #333;

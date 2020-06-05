@@ -1,7 +1,8 @@
-/* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64rem) {
+/* 64em is also 1028px when basefont is 16px  changed to 83rem to fit gallery*/
+@media only screen and (min-width: 83rem) {
 header, nav, footer, main {
-    max-width: 1024px;
+   /* removed for gallery fit */ 
+   /* max-width: 1024px; */
     margin: 0 auto;
 }
 header img {
@@ -16,6 +17,9 @@ header h2 {
 nav ul li a {
     padding: .8rem 1.4rem;
     font-size: .9rem;
+}
+section.images {
+    grid-template-columns: repeat(3, 1fr);
 }
 .iframemap {
     width: 400px;
