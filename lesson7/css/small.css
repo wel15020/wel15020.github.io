@@ -78,7 +78,7 @@ section.images {
     grid-gap: 0px;
     grid-auto-columns: auto;
      justify-content: center;
-
+    text-align: center;
      margin: 1rem auto;
 }
 

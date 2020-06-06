@@ -27,7 +27,9 @@ function onpageload(){
   
   function preloadImage(img){
     const src = img.getAttribute("data-src");
-    if (!src){ return;} else{
+    if (!src) { 
+      return;
+    } else {
       img.src = src;
       img.removeAttribute('data-src');
     }
