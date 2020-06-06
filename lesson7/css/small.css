@@ -77,16 +77,18 @@ section.images {
     display: grid;
     grid-gap: 0px;
     grid-auto-columns: auto;
-     justify-content: center;
+    justify-content: center;
     text-align: center;
-     margin: 1rem auto;
+    margin: 1rem auto;
 }
-
+.figGallery {
+    margin: 5px;
+}
 section.images img {
-
+    padding: .5rem;
     box-shadow: 0 0 10px; 
     border:solid 1px; 
-    margin: 10px; 
+    margin-top: 10px;
     color: #333;
 }
 
