@@ -5,7 +5,7 @@ function onpageload(){
     const imagesToLoad = document.querySelectorAll("[data-src]");
   
     const imageOptions = {
-      threshold: 1,
+      threshold: 0,
       rootMargin: "0px 0px 50px 0px"
     };
   
