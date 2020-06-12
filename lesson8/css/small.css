@@ -3,72 +3,183 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
-/*----------- BODY --------------*/
-body {
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
+#alert {
+    padding: .7em;
+    text-align: center;
+    background: yellow;
 }
-
-
-/*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #3a728f;
+    
 }
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
+header img {float: left; margin-right: 10px; width: 50px;}
+header h1 {margin: 0; font-size: 1.3rem; font-family: 'Rock Salt', cursive;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;} 
 
-/*----------- NAVIGATION --------------*/
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
 nav {
     background-color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+
 }
-nav ul li {
-    float: left;
-    width: 25%;
-}
+
 nav ul li a {
     display: block;
-    background-color: #444;
-    color: #eee;
-    border-left: 1px solid #777;
-    padding: .5rem 0;
+    padding: .8rem 2%;
     text-decoration: none;
-    font-size: .9rem;
-    text-align: center;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-nav ul li:first-child a {border-left: none;}
+
+
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
 
 nav ul li a:hover {
-    background-color: #eee;
+    background-color: rgba(0, 0, 0, 0.4);;
+}
+nav ul.hide {
+    display: none;
+}
+
+main {
+    padding: .5rem 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+main section {
+    padding: .5rem 2%;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: 10px 0;
+    background-color: #e3e3e3;
+}
+
+section.images {
+    display: grid;
+    grid-gap: 0px;
+    grid-auto-columns: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem auto;
+}
+.figGallery {
+    margin: 5px;
+}
+section.images img {
+    padding: .5rem;
+    box-shadow: 0 0 10px; 
+    border:solid 1px; 
+    margin-top: 10px;
     color: #333;
 }
-nav ul li.active a {
-    background-color: #000;
+
+section.images img[data-src] {
+    filter: blur(0.2rem);
+}
+section.images img:hover {
+    box-shadow: 10px 10px 30px;
+}
+.hero {
+    background-color: #eee;
+    border: 1px solid #333;
+    position: relative;
+    text-align: left;
+}
+
+
+.heroimage img {
+    width: 100%;
+    
+}
+.stats {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background-color: rgba(58, 114, 143, 0.9);
+    border: 1px solid #000;
+    padding: .5rem 2%;
+    box-shadow: 0 0 30px #fff;
+    line-height: 15px;
     color: #fff;
 }
-/*----------- MAIN --------------*/
-main {
-    padding: 0 2%;
-    min-height: 20rem;
+.statstable {
+    border: none;
+
+    
+}
+.statstablebody {
+    text-align: right;
+    color: #eee;
+   
+}
+.statstd {
+    text-align: left;
+    color: #000;
+    
+}
+.fiveday {
+    display: none;
+}
+.articleimage {
+    box-shadow: 0 0 30px #fff;
+    border: 1px solid #000;
+
+}
+.author {
+    font-style: italic;
+    color: #3a728f;
+}
+
+.contact {
+text-align: center;
+
+
+}
+.iframemap {
+    display: none;
+}
+.contactinfo {
+    padding: .2em;
+}
+.contactinfoh3 {
+    margin: 0px;
+}
+.contactnumber {
+    padding-top: 1em;
+}
+.contacticons {
+    padding-top: 1em;
 }
 
 /*----------- FORM --------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #3a728f;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: #445ba9;
+    color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -76,8 +187,20 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+ 
+    font-size: 1rem;
+}
+form label.topSlide {
+    display: block;
+    padding-top: 1rem;
     font-size: .8rem;
+    width: 100%;
+    max-width: 20rem;
+    padding: .75rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.1);
+    color: blue;
 }
 
 form label.top input, form label.top select {
@@ -101,7 +224,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #666;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -116,19 +239,26 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: solid green 6px;
 }
+#stormRangeValue {
+    margin: 0 5px;
+}
 
-/*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    
+    justify-content: center;
+    display: flex;
+    background-color: #3a728f;
     padding: .5rem 2%;
     text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    content: "";
+    display: table;
+    clear: both;
+  }

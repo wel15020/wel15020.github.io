@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+</head>
+
+<body onload="onpageload();">
+    <section class="images">
+    <h1>Progessive loading of images</h1>
+    
+    <img src="images/placeholder.png" data-src="images/placeimg_300_400_cat.jpg" alt="Cat looking at you">
+    <img src="images/placeholder.png" data-src="images/placeimg_300_400_creek.jpg" alt="creak in forest">
+    <img src="images/placeholder.png" data-src="images/placeimg_300_400_dog.jpg" alt="Dog on a skate board">
+    <img src="images/placeholder.png" data-src="images/placeimg_300_400_lamp.jpg" alt="Lamps on a bridge">
+    <img src="images/placeholder.png" data-src="images/placeimg_300_400_rainbow.jpg" alt="rainbow over a field">
+    <img src="images/placeholder.png" data-src="images/placeimg_300_400_waterfall.jpg" alt="waterfall in nature">
+   
+    <script src="js/lazyload.js"></script>
+    </section>
+</body>
+</html>
