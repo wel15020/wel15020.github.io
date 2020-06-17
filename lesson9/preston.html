@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="Preston Page" content="Weather for Preston">
+<meta name="author" content="Marcus Welker">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Preston Page</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<!-- STYLE SHEETS -->
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+<div id="alert">Saturday = Preston Pancakes at the Park! <div>9:00 a.m. Saturday at the city park.</div></div>
+<header class="clearfix">
+	<img src="https://cdn1.iconfinder.com/data/icons/Futurosoft%20Icons%200.5.2/128x128/apps/keyboard_layout.png" alt="logo">
+        <h1>myWeather.Life</h1>
+        <h2>Your weather, your life.</h2>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; MENU</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>    
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>Preston</h1>
+       <section>
+            <div class="hero">
+                <picture class="heroimage">
+                    <!-- old values
+                    <source srcset="images/herox500.jpeg" media="(max-width:559px)">
+                    <source srcset="images/herox750.jpeg" media="(max-width:1023px)">
+                    -->
+                    <source srcset="images/herox500.jpeg" media="(max-width:879px)">
+                    <source srcset="images/herox750.jpeg" media="(max-width:1327px)">
+                    <img src="images/herox900.jpeg" alt="the mountains">
+                </picture>
+                
+                <div class="stats">
+                    <h3>Weather Summary</h3>
+                    <table class="statstable">
+                        <tbody class="statstablebody">
+                        <tr>
+                            <td>Currently: </td>
+                            <td class="statstd">Sunny</td>
+                        </tr>
+                        <tr>
+                            <td>Temp: </td>
+                            <td class="statstd"><span id="temp">25</span><span>&#8457;</span></td>
+                        </tr>
+                        <tr>
+                            <td>Wind Chill: </td>
+                            <td id="chill" class="statstd">&#8457;</td>
+                        </tr>
+                        <tr>
+                            <td>Humidity: </td>
+                            <td class="statstd">69%</td>
+                        </tr>
+                        <tr>
+                            <td>Wind Speed: </td>
+                            <td class="statstd"><span id="speed">5</span><span> mph</span></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section> 
+        <section class="fiveday">
+            <h3>5 Day Forecast</h3>
+            <table class="fivedaytable">
+                <thead class="fivedaythead">
+                    <tr>
+                        <td>Mon</td>
+                        <td>Tue</td>
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fivedaytd">
+                            <img src="images/rainy_48.png" alt="Rainy 5 Day Forecast">
+                            <br>65&#8457;
+                        </td>
+                        <td class="fivedaytd">
+                            <img src="images/rainy_48.png" alt="Rainy Day 5 Forecast">
+                            <br>68&#8457;
+                        </td>
+                        <td class="fivedaytd">
+                            <img src="images/cloudy_48.png"
+                                alt="Partially Cloudy Day 5 Forecast">
+                            <br>76&#8457;
+                        </td>
+                        <td class="fivedaytd">
+                            <img src="images/sunny_48.png" alt="Sunny Day 5 Day Forecast">
+                            <br>79&#8457;
+                        </td>
+                        <td class="fivedaytd">
+                            <img src="images/sunny_48.png" alt="Sunny Day 5 Day Forecast">
+                            <br>81&#8457;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="article">
+            <img class="articleimage" src="images/fesitval_375x250.jpeg" alt="family fun festival">
+            <h3>Family Fun Festival</h3>
+            <div class="author">By Somebody Else,</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt mollit anim id est 
+                laborum."</p>
+            <p><a href="#">Continue to full article</a></p>
+        </section>
+        <section class="contact">
+            <div>
+                <iframe class="iframemap" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Preston%2C%20Idaho+(Preston%2C%20Idaho)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    <a href="https://www.maps.ie/draw-radius-circle-map/">Create radius map</a>
+                </iframe>
+            </div>
+            <div class="contactinfo">
+                <h3 class="contactinfoh3">myWeather.life</h3>
+                <img src="images/map_16.png" alt="Map Pin">
+                <span> 30 N 1st E</span>
+                <div>Preston, ID 83263</div>
+                    
+                <div class="contactnumber">&phone; 999.999.9999</div>
+                <div>&#9993; info@myweather.life</div>
+                    
+                <div class="contacticons">
+                    <a href="https://www.facebook.com" target="Blank"><img src="images/facebook_48.png" alt="Link to Facebook"></a>
+                    <a href="https://www.twitter.com" target="Blank"><img src="images/twitter_48.png" alt="Link to Twitter"></a>
+                    <a href="https://www.instagram.com" target="Blank"><img src="images/instagram_48.png" alt="Link to instagram"></a>
+                    <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedin_48.png" alt="Link to LinkedIn"></a>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+<!-- FOOTER HERE -->   
+<footer>
+    <p>&copy; Marcus Welker &nbsp; &bull; &nbsp;</p>
+    <p id="footerDate"></p>
+</footer>
+    
+<script src="js/scripts.js"></script>
+<script src="js/windchill.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>
