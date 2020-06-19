@@ -243,6 +243,30 @@ form label.top input:required:valid {
     margin: 0 5px;
 }
 
+/*-- towns --*/
+.towns section {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.towns h2 {
+    font-size: 2em;
+}
+.towns h3 {
+    font-family: 'Rock Salt', cursive;;
+}
+.towns img {
+    align-self: center;
+    padding: 1em;
+    max-width: 90%;
+    box-shadow: 0 0 10px; 
+    border:solid 1px; 
+}
+
+
+
+
+
 footer {
     
     justify-content: center;

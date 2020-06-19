@@ -32,4 +32,23 @@ form label.sbs {
 div.cards {
     grid-template-columns: repeat(4, 1fr);
 }
+   /*-- towns --*/
+   .towns {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   }
+   .towns section {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .towns section:nth-child(2) {
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .towns img {
+        max-width: 100%;
+    }
+
 } /*end large */

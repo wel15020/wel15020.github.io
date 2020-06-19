@@ -81,4 +81,24 @@ changed to 55em to fit gallery */
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /*-- towns --*/
+    .towns section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .towns section:nth-child(2) {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    .towns img {
+     max-width: 100%;
+    }
+    section div {
+        align-self: center;
+        text-align: left;
+        padding: 20px;
+    }
+
 }
