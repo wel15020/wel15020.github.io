@@ -1,0 +1,104 @@
+/* 35em is also 560px when basefont is 16px 
+changed to 55em to fit gallery */
+@media screen and (min-width: 55em) {
+  
+    header img {
+        width: 70px;
+    }
+    header h1 {
+        font-size: 1.7rem;
+    }
+    header h2 {
+        font-size: 1.4rem;
+    }
+    nav {
+        display: flex;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+    
+    nav ul li {
+       display: block;
+       flex: 1 1 auto;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;
+        font-size: .78rem;
+    }
+    section.images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fiveday {
+        display: flex;
+        flex-direction: column;
+        padding: .5rem 2%;
+        text-align: center;
+    }
+    .fivedaytable {
+        width: 100%;
+    }
+    .fivedaytd {
+        padding: .5rem;
+        text-align: center;
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+    }
+    .fivedaythead {
+        background-color: #3a728f;
+        color: white;
+        font-family: var(--nav-font);
+        text-align: center;
+        border: 1px solid black;
+    }
+    .articleimage {
+        float: right;
+        margin: 1em .2em 2em .5em;
+    }
+    .contact {
+        width: 100%;
+        text-align: left;
+        display: flex;
+    }
+    .iframemap {
+        display: block;
+        margin: .5em;
+        width: 280px;
+        height: 215px;
+        box-shadow: 0 0 30px #fff;
+        border: 1px solid #000;
+    }
+    .contactinfo {
+        text-align: center;
+    }
+    div.cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*-- towns --*/
+    .towns section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .towns section:nth-child(2) {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    .towns img {
+     max-width: 100%;
+    }
+    section div {
+        align-self: center;
+        text-align: left;
+        padding: 20px;
+    }
+
+}
