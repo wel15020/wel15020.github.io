@@ -74,11 +74,11 @@
                         <tbody class="statstablebody">
                         <tr>
                             <td>Currently: </td>
-                            <td class="statstd"><span id="current"></span></td>
+                            <td class="statstd">Sunny</td>
                         </tr>
                         <tr>
                             <td>Temp: </td>
-                            <td class="statstd"><span id="current-temp"></span> &#8457;</td>
+                            <td class="statstd"><span id="temp">25</span><span>&#8457;</span></td>
                         </tr>
                         <tr>
                             <td>Wind Chill: </td>
@@ -86,11 +86,11 @@
                         </tr>
                         <tr>
                             <td>Humidity: </td>
-                            <td class="statstd"><span id="humidity"></span> %</td>
+                            <td class="statstd">69%</td>
                         </tr>
                         <tr>
                             <td>Wind Speed: </td>
-                            <td class="statstd"><span id="speed"></span> mph</td>
+                            <td class="statstd"><span id="speed">5</span><span> mph</span></td>
                         </tr>
                         </tbody>
                     </table>
@@ -102,16 +102,36 @@
             <table class="fivedaytable">
                 <thead class="fivedaythead">
                     <tr>
-                        <td id="tomorrow"></td>
-                        <td id="day2"></td>
-                        <td id="day3"></td>
-                        <td id="day4"></td>
-                        <td id="day5"></td>
+                        <td>Mon</td>
+                        <td>Tue</td>
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="newData">
-
+                    <tr>
+                        <td class="fivedaytd">
+                            <img src="images/rainy_48.png" alt="Rainy 5 Day Forecast">
+                            <br>65&#8457;
+                        </td>
+                        <td class="fivedaytd">
+                            <img src="images/rainy_48.png" alt="Rainy Day 5 Forecast">
+                            <br>68&#8457;
+                        </td>
+                        <td class="fivedaytd">
+                            <img src="images/cloudy_48.png"
+                                alt="Partially Cloudy Day 5 Forecast">
+                            <br>76&#8457;
+                        </td>
+                        <td class="fivedaytd">
+                            <img src="images/sunny_48.png" alt="Sunny Day 5 Day Forecast">
+                            <br>79&#8457;
+                        </td>
+                        <td class="fivedaytd">
+                            <img src="images/sunny_48.png" alt="Sunny Day 5 Day Forecast">
+                            <br>81&#8457;
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -163,7 +183,7 @@
     <p>&copy; Marcus Welker &nbsp; &bull; &nbsp;</p>
     <p id="footerDate"></p>
 </footer>
-<script src="js/forecast.js"></script>    
+    
 <script src="js/scripts.js"></script>
 <script src="js/windchill.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

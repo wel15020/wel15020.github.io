@@ -50,6 +50,13 @@ changed to 55em to fit gallery */
         border: 1px solid black;
         color: black;
     }
+    .newData {
+            padding: .5rem;
+            text-align: center;
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+    }
     .fivedaythead {
         background-color: #3a728f;
         color: white;

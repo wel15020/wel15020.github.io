@@ -1,4 +1,4 @@
-let t = document.getElementById('temp').textContent;
+let t = document.getElementById('current-temp').textContent;
 let s = document.getElementById('speed').textContent;
 
 if (t <= 50 && s >= 3) {
