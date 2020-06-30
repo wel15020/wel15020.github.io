@@ -1,0 +1,54 @@
+/* 64em is also 1028px when basefont is 16px  changed to 83rem to fit gallery*/
+@media only screen and (min-width: 83rem) {
+header, nav, footer, main {
+   /* removed for gallery fit */ 
+   /* max-width: 1024px; */
+    margin: 0 auto;
+}
+header img {
+    width: 80px;
+}
+header h1 {
+    font-size: 2.0rem;
+}
+header h2 {
+    font-size: 1.7rem;
+}
+nav ul li a {
+    padding: .8rem 1.4rem;
+    font-size: .9rem;
+}
+section.images {
+    grid-template-columns: repeat(3, 1fr);
+}
+.iframemap {
+    width: 400px;
+    height: 300px;
+}
+form label.sbs {
+    padding: .4rem 0;
+    
+}
+div.cards {
+    grid-template-columns: repeat(4, 1fr);
+}
+   /*-- towns --*/
+   .towns {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   }
+   .towns section {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .towns section:nth-child(2) {
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .towns img {
+        max-width: 100%;
+    }
+
+} /*end large */

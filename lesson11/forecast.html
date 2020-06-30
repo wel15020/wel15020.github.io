@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Openweather API MAP - Forecast</h1>
+    <article class="HeroWeather">
+        <div class="HeroSummary">
+            <h3>Weather Summary</h3>
+            <div class="SumData">
+                <div class="LeftData">
+                    <span>Currently:&#8287;</span><br>
+                    <span>Temperature:&#8287;</span><br>
+                    <span>Wind Chill: &#8287;</span><br>
+                    <span>Humidity:&#8287;</span><br>
+                    <span>Wind Speed:&#8287;</span>
+                </div>
+                <div class="RightData">
+                    <span id="current"></span><br>
+                    <span id="current-temp"></span>&#8457;<br>
+                    <span id="WindChill"></span><br>
+                    <span id="humidity"></span>%<br>
+                    <span id="speed"></span> mph
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="PrestonWeather">
+        <h3>5 Day Forecast</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td id="tomorrow">
+                    </td>
+                    <td id="day2">
+                    </td>
+                    <td id="day3">
+                    </td>
+                    <td id="day4">
+                    </td>
+                    <td id="day5">
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                </tr>
+                <tr class="newData"></tr>
+            </tbody>
+        </table>
+    </article>
+
+
+
+
+    <script src="js/forecast.js"></script>
+
+</body>
+</html>
