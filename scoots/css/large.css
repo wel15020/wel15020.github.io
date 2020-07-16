@@ -1,0 +1,47 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    header, nav, footer, main {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    header {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    header img {
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+    }
+    header h1 {
+        font-size: 2.0rem;
+    }
+    header h2 {
+        font-size: 1.7rem;
+    }
+
+
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li a {
+        font-size: 1.1rem;
+        border-right: none;
+    }
+
+
+    footer {
+        font-size: 1.7rem;
+        justify-content: center;
+    }
+    .contacticons {
+        padding-top: .7em;
+    }
+    .contacticons img {
+        width: 40px;
+    }
+}
