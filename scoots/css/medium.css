@@ -97,6 +97,31 @@ changed to 55em to fit gallery */
     .newData img {
         width: 75px;
     }
+    .iframeDiv {
+        width: 50%;
+    }
+    .location1 {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+    .location1 h3 {
+        font-size: 1.5rem;
+    }
+    .location2 {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+    .location2 h3 {
+        font-size: 1.5rem;
+    }
+    .gmaps {
+        width: 100%;
+        margin-top: 10px;
+    }
     .contacticons {
         padding-top: .6em;
     }

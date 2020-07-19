@@ -59,6 +59,9 @@ nav ul.hide {
 body {
     background-color: #e9efff;
 }
+body a{
+    text-decoration: none;
+}
 
 main {
     padding: .5rem 2%;
@@ -69,6 +72,7 @@ main h1 {
     font-family: 'Indie Flower', cursive;
     font-size: 1.6rem;
 }
+/*-- Home Start --*/
 .rentalsTitle {
     background-color: #39c674;
     text-align: center;
@@ -185,6 +189,80 @@ figure {
 .fiveday {
     display: none;
 }
+/*-- Home End--*/
+/*----------- FORM Start  --------------*/
+form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+form fieldset legend {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+}
+
+.yourInfo {
+    background-color: #39c674;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.rentalInfo {
+    background-color: #4fabf7;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.specialInfo {
+    background-color: #ffdd3f;
+    font-size: 1.1rem;
+}
+form label.top input:required {
+    border-left: solid red 6px;
+}
+
+form label.top input:required:valid {
+    border-left: solid green 6px;
+}
+.button {
+    margin-top: 10px;
+
+}
+/*-- Form End--*/
+
+/*-- Contact Start --*/
+.location1 {
+    background-color: #4fabf7;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+.location2 {
+    background-color: #ffdd3f;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.gmaps {
+    
+    width: 95%;
+    height: 250px;
+    box-shadow: 0 0 10px; 
+    color: #333;
+
+    
+}
+.contactUs {
+    background-color: #39c674;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/*-- Contact End --*/
 
 footer {
     
@@ -204,7 +282,6 @@ footer {
 .contacticons img {
     width: 24px;
 }
-
 
 .clearfix button {
     font-family: 'Indie Flower', cursive;

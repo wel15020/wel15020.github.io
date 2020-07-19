@@ -48,15 +48,78 @@
     <main>
        
         <h1>Reservations</h1>
-        <p>We help you scoots through life.</p>
-        
+        <p>Fill out the form below to make your reservation.</p>
+        <h3>Reservation Guidelines:</h3>
+        <ul>
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>A valid drivers license is required in hand at time of rental.</li>
+            <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+            <li>Fuel charge not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is free of charge.</li>
+            <li>Reservations rate requires 24 hour prior notification.</li>
+            <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+            <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+            <li>Rentals may be returned to either location.</li>
+        </ul>
+
+            <form method="get" action="thankyou.html" autocomplete="on">
+                <fieldset class="yourInfo">
+                    <legend>Your Information:</legend>
+                    <label class="top">Full Name* <input type="text" name="name" placeholder="First and Last Name" required pattern="(?=.*[a-z])(?=.*[A-Z]).{5,}"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@scoots.life" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="123-555-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="14" required></label>
+                    <label class="top">Home Country / State* <input type="country" name="countryState" required></label>
+                    <label class="top">Cruise Line (if applicable)<input type="cruiseLine" name="cruiseLine"></label>
+                </fieldset>
+                <fieldset class="rentalInfo">
+                    <legend>Rental Information:</legend>
+                    <label class="top">Start Date* <input type="date" name="startDate" required></label>
+                    <label class="top">End Date* <input type="date" name="endDate" required></label>
+
+                    <label class="top">Rental Type* <select name="rentalType">
+                        <option value="">Select Rental Type...</option>
+                        <option value="scooter1">Honda Metro Scooter</option>
+                        <option value="scooter2">Honda Dio Scooter</option>
+                        <option value="scooter3">Honda PCX150 Scooter</option>
+                        <option value="atv1">Honda Pioneer ATV</option>
+                        <option value="jeep1">Jeep Wrangler - 4 door with a/c</option>
+                        <option value="jeep2">Jeep Wrangler - 2 door</option>
+                    </select></label>
+                    <label class="top">Number of Occupants* <select name="rentalOccupants">
+                        <option value="">Select Number of Occupants...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></label>
+                </fieldset>
+                <fieldset class="specialInfo">
+                    <legend>Special Accommodations or Comments:</legend>
+                    <textarea rows="4" cols="35" name="comment" placeholder="Enter text here..."></textarea>
+                </fieldset>
+                <div class="button">
+                    <input type="submit" value="Reserve Your Vehicle" class="submitBtn">
+                </div>
+
+            </form>
     </main>
     <!-- Main End -->
 
     <!-- Footer Start -->   
     <footer>
+        <div class="contacticons">
+            <a href="https://www.facebook.com" target="Blank"><img src="images/facebook_48.png" alt="Link to Facebook"></a>
+            <a href="https://www.twitter.com" target="Blank"><img src="images/twitter_48.png" alt="Link to Twitter"></a>
+            <a href="https://www.instagram.com" target="Blank"><img src="images/instagram_48.png" alt="Link to instagram"></a>
+            <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedin_48.png" alt="Link to LinkedIn"></a>
+        </div>
+        
         <p>&copy; Marcus Welker &nbsp; &bull; &nbsp;</p>
         <p id="footerDate"></p>
+        
+
     </footer>
     <!-- Footer End -->   
 

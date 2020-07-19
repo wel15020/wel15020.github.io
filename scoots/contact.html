@@ -48,17 +48,65 @@
     <main>
        
         <h1>Contact Us!</h1>
-        <p>We help you scoots through life.</p>
-        
+        <p>We have the right rental for you at the place that you need it.  See our locatoins below and fill out the form if you need more information.</p>
+
+        <div class="location1">
+            <div>
+                <h3>Playa del Carmen location</h3>
+                <p>Av. Rafael E. Melgar, Centro, 77600</p>
+                <P>San Miguel de Cozumel, Q.R., Mexico</p>
+                <p>Tel: +529878724970</p>
+                <p>Email: pdc@soots.life</p>
+            </div>
+            <div class="iframeDiv">
+                <iframe class="gmaps" src="https://maps.google.com/maps?q=playa%20del%20carmen&t=k&z=13&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+            </div>
+        </div>
+        <div class="location2">
+            <div class="iframeDiv">
+                <iframe class="gmaps" src="https://maps.google.com/maps?q=Terminal%20Puerta%20Maya&t=k&z=13&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+            </div>
+            <div>
+                <h3>Terminal Puerta Maya location</h3>
+                <p>Carretera Chankanaab, Carretera Costera Sur, 77600</p>
+                <p>San Miguel de Cozumel, Q.R., Mexico</p>
+                <p>Tel: +529878691984</p>
+                <p>Email: tpm@scoots.life</p>
+            </div>
+
+        </div>
+        <form method="get" action="thankyou2.html" autocomplete="on">
+            <fieldset class="contactUs">
+                <legend>Need More Info?</legend>
+                <label class="top">Full Name* <input type="text" name="name" placeholder="First and Last Name" required pattern="(?=.*[a-z])(?=.*[A-Z]).{5,}"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@scoots.life" required></label>
+                <label class="top">Comment:</label>
+                <textarea rows="4" cols="35" name="comment" placeholder="Enter text here..."></textarea>
+            </fieldset>
+            <div class="button">
+                <input type="submit" value="Contact Us" class="submitBtn">
+            </div>
+        </form>
     </main>
     <!-- Main End -->
 
     <!-- Footer Start -->   
     <footer>
+        <div class="contacticons">
+            <a href="https://www.facebook.com" target="Blank"><img src="images/facebook_48.png" alt="Link to Facebook"></a>
+            <a href="https://www.twitter.com" target="Blank"><img src="images/twitter_48.png" alt="Link to Twitter"></a>
+            <a href="https://www.instagram.com" target="Blank"><img src="images/instagram_48.png" alt="Link to instagram"></a>
+            <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedin_48.png" alt="Link to LinkedIn"></a>
+        </div>
+        
         <p>&copy; Marcus Welker &nbsp; &bull; &nbsp;</p>
         <p id="footerDate"></p>
+        
+
     </footer>
-    <!-- Footer End -->   
+    <!-- Footer End -->    
 
     <script src="js/navigation.js"></script>
     <script src="js/footer.js"></script>
