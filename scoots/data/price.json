@@ -1,4 +1,5 @@
-[
+{
+  "prophets": [
  {
    "Rental Type": "~Honda Metro Scooter",
    "Max. Persons": 1,
@@ -48,3 +49,4 @@
    "Walk-In (Full Day)": "$90 "
  }
 ]
+}
