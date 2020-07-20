@@ -45,3 +45,4 @@ document.getElementById('day2').innerHTML = weekday[(day.getDay() + 2) % 7];
 document.getElementById('day3').innerHTML = weekday[(day.getDay() + 3) % 7]
 document.getElementById('day4').innerHTML = weekday[(day.getDay() + 4) % 7]
 document.getElementById('day5').innerHTML = weekday[(day.getDay() + 5) % 7];
+

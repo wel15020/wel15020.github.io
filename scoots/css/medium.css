@@ -118,9 +118,27 @@ changed to 55em to fit gallery */
     .location2 h3 {
         font-size: 1.5rem;
     }
+    .locDiv {
+        width: 428px;
+    }
     .gmaps {
         width: 100%;
         margin-top: 10px;
+    }
+    .tours1 img {
+        display: block;
+        float: right;
+        margin: 1em .2em 2em .5em;
+    }
+    .tours2 img {
+        display: block;
+        float: right;
+        margin: 1em .2em 2em .5em;
+    }
+    .tours3 img {
+        display: block;
+        float: right;
+        margin: 1em .2em 2em .5em;
     }
     .contacticons {
         padding-top: .6em;

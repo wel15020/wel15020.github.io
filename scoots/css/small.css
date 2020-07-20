@@ -72,6 +72,9 @@ main h1 {
     font-family: 'Indie Flower', cursive;
     font-size: 1.6rem;
 }
+main h3 {
+    font-size: 1.3rem;
+}
 /*-- Home Start --*/
 .rentalsTitle {
     background-color: #39c674;
@@ -230,7 +233,7 @@ form label.top input:required:valid {
 
 /*-- Contact Start --*/
 .location1 {
-    background-color: #4fabf7;
+    background-color: #39c674;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -239,7 +242,7 @@ form label.top input:required:valid {
 
 }
 .location2 {
-    background-color: #ffdd3f;
+    background-color: #4fabf7;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -257,13 +260,54 @@ form label.top input:required:valid {
     
 }
 .contactUs {
-    background-color: #39c674;
+    background-color: #ffdd3f;
     margin-bottom: 10px;
     font-size: 1.1rem;
 }
 
 /*-- Contact End --*/
+/*-- Tours  Start --*/
 
+.tours1 {
+    background-color: #39c674;
+    padding: .5rem .5rem;
+    margin-bottom: 10px;
+}
+.tours1 img {
+    box-shadow: 0 0 10px; 
+    color: #333;
+    display: none;
+}
+.tours2 {
+    background-color: #4fabf7;
+    padding: .5rem .5rem;
+    margin-bottom: 10px;
+}
+.tours2 img {
+    box-shadow: 0 0 10px; 
+    color: #333;
+    display: none;
+}
+.tours3 {
+    background-color: #ffdd3f;
+    padding: .5rem .5rem;
+}
+.tours3 img {
+    box-shadow: 0 0 10px; 
+    color: #333;
+    display: none;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.redText {
+
+    color: red;
+    font-weight: bold;
+}
+
+
+/*-- Tours End --*/
 footer {
     
     display: flex;
