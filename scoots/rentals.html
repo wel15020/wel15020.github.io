@@ -48,13 +48,31 @@
     <main>
        
         <h1>Rentals</h1>
-        <h3>We have many rentals to choose from. Make your selection depending on your style and how many riders.</h3>
-
-        <p>The Rentals page describes the available rental options and prices with images. The prices displayed on the site must be obtained from a JSON data source of your own making. You can store this .json file in a data 📁folder on the site. Incorporate a data table in your HTML structure to display some portion of this information.</p>
+        <h2>We have many rentals to choose from. Make your selection depending on your style and how many persons that ride at one time.</h2>
+        <h3>Types of Rentals</h3>
+        <ul>
+            <li>Honda Motor Scooters</li>
+            <ul>
+                <li>Honda Metropolitan (49cc) - 1 person</li>
+                <li>Honda Dio (110cc) - 2 person</li>
+                <li>Honda PCX150 (149cc) - 2 person</li>
+            </ul>
+            <li>ATV Side-by-Side</li>
+            <ul>
+                <li>Honda Pioneer 1000</li>
+            </ul>
+            <li>Jeep Rentals</li>
+            <ul>
+                <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+                <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+            </ul>
         
-        <div>
-            <table>
-                <thead class="fivedaythead">
+        </ul>
+
+        <div class="rentalDiv">
+            <h3>Rental Pricing</h3>
+            <table class="rentalTable">
+                <thead class="rentalHead">
                     <tr>
                     <td>Rental Type</td>
                     <td>Max. Persons</td>
@@ -65,12 +83,7 @@
                     <td>Picture</td>
                     </tr>
                 </thead>
-                <tbody class="prices">
-                   
-                </tbody>
-
-
-
+                <tbody class="prices"></tbody>
             </table>
         </div>
 

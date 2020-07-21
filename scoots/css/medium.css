@@ -46,6 +46,12 @@ changed to 55em to fit gallery */
     .rentals2 {
         padding: .5rem .5rem;
     }
+    .rentalHead {
+        font-size: 1.3rem;
+    }
+    .prices {
+        font-size: 1.2rem;
+    }
     .locations {
         flex-direction: row;
     }

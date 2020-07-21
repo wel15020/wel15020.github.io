@@ -108,7 +108,44 @@ main h3 {
     box-shadow: 0 0 10px; 
     color: #333;
 }
+.rentalDiv {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.rentalTable {
+    width: 100%;
+    box-shadow: 0 0 10px; 
+}
+.rentalHead {
+    background-color: #39c674;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid black;
+}
 
+.prices {
+    padding: .5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1rem;
+}
+.prices tr {
+    background-color: #ffdd3f;
+}
+.prices tr:nth-child(odd) {
+    background-color: #4fabf7;
+}
+.prices img {
+    width: 100%;
+    box-shadow: 0 0 10px; 
+    color: #333;
+    display: block;
+}
 
 
 
@@ -196,14 +233,26 @@ figure {
 /*----------- FORM Start  --------------*/
 form fieldset {
     border: none;
-    display: flex;
-    flex-direction: column;
+    margin: 2rem 0;
+
 }
 form fieldset legend {
     font-family: 'Indie Flower', cursive;
     font-size: 1.3rem;
-}
 
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+    
+}
+form label.top input, form label.top select {
+    display: block;
+    padding: .5rem;
+    width: 100%;
+    max-width: 20rem;
+}
 .yourInfo {
     background-color: #39c674;
     margin-bottom: 10px;
@@ -218,6 +267,7 @@ form fieldset legend {
     background-color: #ffdd3f;
     font-size: 1.1rem;
 }
+
 form label.top input:required {
     border-left: solid red 6px;
 }
@@ -225,9 +275,15 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: solid green 6px;
 }
-.button {
-    margin-top: 10px;
-
+form input.submitBtn {
+    border: none;
+    background-color: #39c674;
+    color: white;
+    
+    padding: .75rem 1.5rem;
+   
+    width: 96%;
+    max-width: 20rem;
 }
 /*-- Form End--*/
 

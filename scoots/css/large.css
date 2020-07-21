@@ -32,8 +32,12 @@
         font-size: 1.1rem;
         border-right: none;
     }
-
-
+    .rentalHead {
+        font-size: 1.4rem;
+    }
+    .prices {
+        font-size: 1.3rem;
+    }
     footer {
         font-size: 1.7rem;
         justify-content: center;
