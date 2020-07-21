@@ -3,50 +3,50 @@
  {
    "rentalType": "~Honda Metro Scooter",
    "maxPersons": 1,
-   "Reservation (3 hrs)": "$20 ",
-   "Reservation (Full Day)": "$30 ",
-   "Walk-In (3 hrs)": "$25 ",
-   "Walk-In (Full Day)": "$35 "
+   "resHalf": "$20 ",
+   "resFullday": "$30 ",
+   "wiHalf": "$25 ",
+   "wiFullday": "$35 "
  },
  {
    "rentalType": "~Honda Dio Scooter",
    "maxPersons": 2,
-   "Reservation (3 hrs)": "$30 ",
-   "Reservation (Full Day)": "$40 ",
-   "Walk-In (3 hrs)": "$35 ",
-   "Walk-In (Full Day)": "$45 "
+   "resHalf": "$30 ",
+   "resFullday": "$40 ",
+   "wiHalf": "$35 ",
+   "wiFullday": "$45 "
  },
  {
    "rentalType": "~Honda PCX150 Scooter",
    "maxPersons": 2,
-   "Reservation (3 hrs)": "$40 ",
-   "Reservation (Full Day)": "$50 ",
-   "Walk-In (3 hrs)": "$45 ",
-   "Walk-In (Full Day)": "$55 "
+   "resHalf": "$40 ",
+   "resFullday": "$50 ",
+   "wiHalf": "$45 ",
+   "wiFullday": "$55 "
  },
  {
    "rentalType": "Honda Pioneer ATV",
    "maxPersons": 4,
-   "Reservation (3 hrs)": "$50 ",
-   "Reservation (Full Day)": "$70 ",
-   "Walk-In (3 hrs)": "$60 ",
-   "Walk-In (Full Day)": "$80 "
+   "resHalf": "$50 ",
+   "resFullday": "$70 ",
+   "wiHalf": "$60 ",
+   "wiFullday": "$80 "
  },
  {
    "rentalType": "Jeep Wrangler - 4 door with a/c",
    "maxPersons": 5,
-   "Reservation (3 hrs)": "$70 ",
-   "Reservation (Full Day)": "$100 ",
-   "Walk-In (3 hrs)": "$85 ",
-   "Walk-In (Full Day)": "$125 "
+   "resHalf": "$70 ",
+   "resFullday": "$100 ",
+   "wiHalf": "$85 ",
+   "wiFullday": "$125 "
  },
  {
    "rentalType": "Jeep Wrangler - 2 door",
    "maxPersons": 4,
-   "Reservation (3 hrs)": "$60 ",
-   "Reservation (Full Day)": "$85 ",
-   "Walk-In (3 hrs)": "$70 ",
-   "Walk-In (Full Day)": "$90 "
+   "resHalf": "$60 ",
+   "resFullday": "$85 ",
+   "wiHalf": "$70 ",
+   "wiFullday": "$90 "
  }
 ]
 }
