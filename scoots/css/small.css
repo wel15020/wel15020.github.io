@@ -364,6 +364,9 @@ form input.submitBtn {
 
 
 /*-- Tours End --*/
+.resources {
+    text-align: center;
+}
 footer {
     
     display: flex;
