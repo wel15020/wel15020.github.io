@@ -16,7 +16,7 @@
    "resFullday": "$40 ",
    "wiHalf": "$35 ",
    "wiFullday": "$45 ",
-   "imageURL": "https://wel15020.github.io/scoots/images/scooter_hondadio_300.jpg"
+   "imageURL": "<img src='https://wel15020.github.io/scoots/images/scooter_hondadio_300.jpg'></img>"
  },
  {
    "rentalType": "~Honda PCX150 Scooter",
@@ -25,7 +25,7 @@
    "resFullday": "$50 ",
    "wiHalf": "$45 ",
    "wiFullday": "$55 ",
-   "imageURL": "https://wel15020.github.io/scoots/images/scooter_hondapczx_300.jpg"
+   "imageURL": "<img src='https://wel15020.github.io/scoots/images/scooter_hondapczx_300.jpg'></img>"
  },
  {
    "rentalType": "Honda Pioneer ATV",
@@ -34,7 +34,7 @@
    "resFullday": "$70 ",
    "wiHalf": "$60 ",
    "wiFullday": "$80 ",
-   "imageURL": "https://wel15020.github.io/scoots/images/scooter_hondapioneer_300.jpg"
+   "imageURL": "<img src='https://wel15020.github.io/scoots/images/scooter_hondapioneer_300.jpg'></img>"
  },
  {
    "rentalType": "Jeep Wrangler - 4 door with a/c",
@@ -43,7 +43,7 @@
    "resFullday": "$100 ",
    "wiHalf": "$85 ",
    "wiFullday": "$125 ",
-   "imageURL": "https://wel15020.github.io/scoots/images/jeep_4door_300.jpg"
+   "imageURL": "<img src='https://wel15020.github.io/scoots/images/jeep_4door_300.jpg'></img>"
  },
  {
    "rentalType": "Jeep Wrangler - 2 door",
@@ -52,7 +52,7 @@
    "resFullday": "$85 ",
    "wiHalf": "$70 ",
    "wiFullday": "$90 ",
-   "imageURL": "https://wel15020.github.io/scoots/images/jeep_2door_300.jpg"
+   "imageURL": "<img src='https://wel15020.github.io/scoots/images/jeep_2door_300.jpg'><img>"
  }
 ]
 }
