@@ -65,8 +65,9 @@
 
             <form method="get" action="thankyou.html" autocomplete="on">
                 <fieldset class="yourInfo">
-                    <img src="images/yourInfo.png" alt="Your Information Icon">
+                    
                     <legend>Your Information:</legend>
+                    <img src="images/yourInfo.png" alt="Your Information Icon">
                     <label class="top">Full Name* <input type="text" name="name" placeholder="First and Last Name" required pattern="(?=.*[a-z])(?=.*[A-Z]).{5,}"></label>
                     <label class="top">Email* <input type="email" name="email" placeholder="someone@scoots.life" required></label>
                     <label class="top">Phone* <input type="tel" name="phone" placeholder="123-555-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="14" required></label>
@@ -74,8 +75,9 @@
                     <label class="top">Cruise Line (if applicable)<input type="text" name="cruiseLine"></label>
                 </fieldset>
                 <fieldset class="rentalInfo">
-                    <img src="images/rentalInfo.png" alt="Rental Information Icon">
+                    
                     <legend>Rental Information:</legend>
+                    <img src="images/rentalInfo.png" alt="Rental Information Icon">
                     <label class="top">Start Date* <input type="date" name="startDate" required></label>
                     <label class="top">End Date* <input type="date" name="endDate" required></label>
 
@@ -96,10 +98,12 @@
                         <option value="4">4</option>
                         <option value="5">5</option>
                     </select></label>
+                
                 </fieldset>
                 <fieldset class="specialInfo">
-                    <img src="images/specialInfo.png" alt="Special Information Icon">
+                    
                     <legend>Special Accommodations or Comments:</legend>
+                    <img src="images/specialInfo.png" alt="Special Information Icon">
                     <textarea rows="4" cols="35" name="comment" placeholder="Enter text here..."></textarea>
                 </fieldset>
                 <div class="button">
