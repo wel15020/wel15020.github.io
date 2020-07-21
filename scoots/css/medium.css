@@ -149,17 +149,20 @@ changed to 55em to fit gallery */
     .yourInfo img {
         display: flex;
         float: right;
-        width: 300px;
+        width:35%;
     }
      .rentalInfo img {
         display: flex;
         float: right;
-        width: 300px;
+        width:35%;
     }
     .specialInfo img {
         display: flex;
         float: right;
-        width: 300px;
+        width:35%;
+    }
+    .specialText {
+        min-height: 20rem;
     }
    
     .contacticons {

@@ -272,6 +272,11 @@ form label.top input, form label.top select {
 .specialInfo {
     background-color: #ffdd3f;
     font-size: 1.1rem;
+    
+}
+.specialText {
+    max-width: 20rem;
+ 
 }
 .specialInfo img {
     display: none;
