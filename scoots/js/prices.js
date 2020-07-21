@@ -13,14 +13,30 @@
       let data = document.createElement('tr');
       let column1 = document.createElement('td');
       let column2 = document.createElement('td');
+      let column3 = document.createElement('td');
+      let column4 = document.createElement('td');
+      let column5 = document.createElement('td');
+      let column6 = document.createElement('td');
+      let image = document.createElement('img');
 
       // populate HTML elements
       column1.textContent = prices[i].rentalType;
       column2.textContent = prices[i].maxPersons;
+      column3.textContent = prices[i].resHalf;
+      column4.textContent = prices[i].resFullday;
+      column5.textContent = prices[i].wiHalf;
+      column6.textContent = prices[i].wiFullday;
+      image.setAttribute = ('src', prices[i].imageURL);
+    
 
       // place on page
-    data.appendChild(column1);
+    data.appendChild(column1, image);
     data.appendChild(column2);
+    data.appendChild(column3);
+    data.appendChild(column4);
+    data.appendChild(column5);
+    data.appendChild(column6);
+
 
     document.querySelector('tbody.prices').appendChild(data);
      }
