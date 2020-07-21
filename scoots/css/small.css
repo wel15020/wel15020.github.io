@@ -263,11 +263,19 @@ form label.top input, form label.top select {
     margin-bottom: 10px;
     font-size: 1.1rem;
 }
+.yourInfo img {
+    display: none;
+}
+.rentalInfo img {
+    display: none;
+}
 .specialInfo {
     background-color: #ffdd3f;
     font-size: 1.1rem;
 }
-
+.specialInfo img {
+    display: none;
+}
 form label.top input:required {
     border-left: solid red 6px;
 }

@@ -146,6 +146,22 @@ changed to 55em to fit gallery */
         float: right;
         margin: 1em .2em 2em .5em;
     }
+    .yourInfo img {
+        display: flex;
+        float: right;
+        width: 300px;
+    }
+     .rentalInfo img {
+        display: flex;
+        float: right;
+        width: 300px;
+    }
+    .specialInfo img {
+        display: flex;
+        float: right;
+        width: 300px;
+    }
+   
     .contacticons {
         padding-top: .6em;
     }
