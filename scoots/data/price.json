@@ -7,7 +7,7 @@
    "resFullday": "$30 ",
    "wiHalf": "$25 ",
    "wiFullday": "$35 ",
-   "imageURL": "https://wel15020.github.io/scoots/images/scooter_hondametro_300.jpg"
+   "imageURL": "<img src='https://wel15020.github.io/scoots/images/scooter_hondametro_300.jpg'></img>"
  },
  {
    "rentalType": "~Honda Dio Scooter",
