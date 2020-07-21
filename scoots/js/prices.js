@@ -7,15 +7,21 @@
   .then(function (jsonObject) {
      console.table(jsonObject);  
      const prices = jsonObject["prices"];
-     for (let i = 0; i < prics.length; i++ ) {
+     for (let i = 0; i < prices.length; i++ ) {
       
-      let div = document.createElement('div');
-      let h2 = document.createElement('h2');
+      // identify the  HTML elements needed
+      let data = document.createElement('tr');
+      let column1 = document.createElement('td');
+      let column2 = document.createElement('td');
 
-      h2.textContent = prices[i].rentalType;
+      // populate HTML elements
+      column1.textContent = prices[i].rentalType;
+      column2.textContent = prices[i].maxPersons;
 
-    div.appendChild(h2);
+      // place on page
+    data.appendChild(column1);
+    data.appendChild(column2);
 
-    document.querySelector('div.prices').appendChild(div);
-    
+    document.querySelector('tbody.prices').appendChild(data);
+     }
   });
