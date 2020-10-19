@@ -1,0 +1,414 @@
+
+/* 
+font-family: 'Indie Flower', cursive;
+font-family: 'Crimson Text', serif;
+
+*/
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+header {
+    padding: .5rem 2%;
+    background-color: #ff4f54;
+    color: #fff;
+}
+header img {float: left; margin-right: 10px; width: 50px;}
+header h1 {margin: 0; font-size: 1.3rem; font-family: 'Indie Flower', cursive;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;} 
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav {
+    background-color: #4fabf7;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);;
+}
+nav ul.hide {
+    display: none;
+}
+body {
+    background-color: #e9efff;
+}
+body a{
+    text-decoration: none;
+}
+
+main {
+    padding: .5rem 2%;
+    font-family: 'Crimson Text', serif;
+
+}
+main h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.6rem;
+}
+main h3 {
+    font-size: 1.3rem;
+}
+/*-- Home Start --*/
+.rentalsTitle {
+    background-color: #39c674;
+    text-align: center;
+    padding: .5rem .5rem;
+}
+.rentalsTitle h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3rem;
+    line-height: 0rem;
+}
+.rentals {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #39c674;
+    margin-bottom: 10px;
+    padding: 0rem .5rem;
+    align-content: center;
+}
+.rentals figcaption {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+}
+.rentals h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3rem;
+}
+.rentals img {
+    width: 100%;
+    box-shadow: 0 0 10px; 
+    color: #333;
+}
+.rentalDiv {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.rentalTable {
+    width: 100%;
+    box-shadow: 0 0 10px; 
+}
+.rentalHead {
+    background-color: #39c674;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.prices {
+    padding: .5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1rem;
+}
+.prices tr {
+    background-color: #ffdd3f;
+}
+.prices tr:nth-child(odd) {
+    background-color: #4fabf7;
+}
+.prices img {
+    width: 100%;
+    box-shadow: 0 0 10px; 
+    color: #333;
+    display: block;
+}
+
+
+
+.locationsTitle {
+    background-color: #4fabf7;
+    text-align: center;
+    padding: .5rem .5rem;
+    
+}
+.locationsTitle h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3rem;
+    line-height: 0rem;
+}
+figure {
+    margin: .5rem;
+}
+.locations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4fabf7;
+    margin-bottom: 10px;
+    padding: 0rem .5rem;
+    align-content: center;
+
+}
+.locations figcaption {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+}
+.locations h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3rem;
+}
+.locations img {
+    width: 100%;
+    box-shadow: 0 0 10px; 
+    color: #333;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffdd3f;
+    padding: .5rem .5rem;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.stats h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3rem;
+}
+.statstable {
+    border: none;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px; 
+
+}
+.statstablebody {
+    text-align: center;
+    color: #fff;
+    background-color: #39c674;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    padding: .5rem .5rem;
+}
+.statstd1 {
+    padding: .5rem .5rem;
+}
+.statstd {
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    padding: .5rem .5rem;
+    font-family: 'Crimson Text', serif;
+}
+.fiveday {
+    display: none;
+}
+/*-- Home End--*/
+/*----------- FORM Start  --------------*/
+form fieldset {
+    border: none;
+    margin: 2rem 0;
+
+}
+form fieldset legend {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+    
+}
+form label.top input, form label.top select {
+    display: block;
+    padding: .5rem;
+    width: 100%;
+    max-width: 20rem;
+}
+.yourInfo {
+    background-color: #39c674;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.rentalInfo {
+    background-color: #4fabf7;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.yourInfo img {
+    display: none;
+}
+.rentalInfo img {
+    display: none;
+}
+.specialInfo {
+    background-color: #ffdd3f;
+    font-size: 1.1rem;
+    
+}
+.specialText {
+    max-width: 20rem;
+ 
+}
+.specialInfo img {
+    display: none;
+}
+form label.top input:required {
+    border-left: solid red 6px;
+}
+
+form label.top input:required:valid {
+    border-left: solid green 6px;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #39c674;
+    color: white;
+    
+    padding: .75rem 1.5rem;
+   
+    width: 96%;
+    max-width: 20rem;
+}
+/*-- Form End--*/
+
+/*-- Contact Start --*/
+.location1 {
+    background-color: #39c674;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+.location2 {
+    background-color: #4fabf7;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.gmaps {
+    
+    width: 95%;
+    height: 250px;
+    box-shadow: 0 0 10px; 
+    color: #333;
+
+    
+}
+.contactUs {
+    background-color: #ffdd3f;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/*-- Contact End --*/
+/*-- Tours  Start --*/
+
+.tours1 {
+    background-color: #39c674;
+    padding: .5rem .5rem;
+    margin-bottom: 10px;
+}
+.tours1 img {
+    box-shadow: 0 0 10px; 
+    color: #333;
+    display: none;
+}
+.tours2 {
+    background-color: #4fabf7;
+    padding: .5rem .5rem;
+    margin-bottom: 10px;
+}
+.tours2 img {
+    box-shadow: 0 0 10px; 
+    color: #333;
+    display: none;
+}
+.tours3 {
+    background-color: #ffdd3f;
+    padding: .5rem .5rem;
+}
+.tours3 img {
+    box-shadow: 0 0 10px; 
+    color: #333;
+    display: none;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.redText {
+
+    color: red;
+    font-weight: bold;
+}
+
+
+/*-- Tours End --*/
+.resources {
+    text-align: center;
+}
+footer {
+    
+    display: flex;
+    background-color: #ff4f54;
+    padding: .5rem 2%;
+    
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+}
+.contacticons {
+    padding-top: .75em;
+    padding-right: .75em;
+}
+
+.contacticons img {
+    width: 24px;
+}
+
+.clearfix button {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
